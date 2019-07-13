@@ -5,4 +5,4 @@ for num in range(f+1,l):
             if num%i==0:
                 break
         else:
-            print(num)
+            print(num,end=" ")
