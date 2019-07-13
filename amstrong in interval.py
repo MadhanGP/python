@@ -7,4 +7,4 @@ for num in range(f+1,l):
         add+=last**3
         num=num//10
     if add==temp:
-        print(temp)
+        print(temp,end=" ")
