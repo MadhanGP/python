@@ -1,6 +1,7 @@
 limit=int(input())
 string=input('')
-l=list(string)
+o=list(string)
+l=o[:limit]
 v=['a','e','i','o','u']
 for i in l:
     if i in v:
