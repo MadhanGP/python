@@ -4,7 +4,7 @@ def prime(a):
             break
     else:
         if a!=1:
-            print(a)
+            print(a,end=" ")
         
 num=int(input())
 for i in range(1,num+1):
