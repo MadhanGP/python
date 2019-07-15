@@ -1,0 +1,6 @@
+a,b=map(int,input().split())
+l1=list(map(int,input().split()[:a]))
+l2=list(map(int,input().split()[:b]))
+e=max(l1)
+f=max(l2)
+print(e,'',f)
