@@ -1,6 +1,6 @@
 N,K=map(int,input().split())
 li=list(map(int,input().split()[:N]))
 if K in li:
-    print('yes')
+    print('Yes')
 else:
-    print('no')
+    print('No')
