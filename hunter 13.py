@@ -1,6 +1,6 @@
 s=input('')
 t=s[::-1]
 if s==t:
-  print('yes')
+  print('YES')
 else:
-  print('no')
+  print('NO')
