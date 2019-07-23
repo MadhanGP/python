@@ -1,10 +1,11 @@
 n=int(input())
 l=list(map(int,input().split()[:n]))
 superstar=max(l)
+s=[]
 while len(l)!=0:
     m=max(l)
-    print(m,end=" ")
+    s.append(m)
     r=l.index(m)
     l=l[r+1:]
-print()
+print(*s)
 print(superstar)
