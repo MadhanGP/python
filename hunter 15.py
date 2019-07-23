@@ -6,4 +6,5 @@ while len(l)!=0:
     print(m,end=" ")
     r=l.index(m)
     l=l[r+1:]
-print('\n',superstar)
+print()
+print(superstar)
