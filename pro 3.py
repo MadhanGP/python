@@ -4,7 +4,6 @@ l.append(x)
 l.append(y)
 s=[]
 for i in zip(*l):
-    print(i)
     if i.count(i[0])==len(i):
         s.append(i[0])
     else:
