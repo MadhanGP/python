@@ -1,5 +1,6 @@
 name=input("")
-for i in name:
+n=name.lower()
+for i in n:
     if i==" ":
         pass
     else:
