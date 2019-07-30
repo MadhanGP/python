@@ -1,2 +1,2 @@
-s=input("")
-print(len(s))
+string=input("")
+print(len(string))
