@@ -15,3 +15,24 @@ print(s2)
 
 s4=s3.lower()
 print(s4)
+
+
+#alternate
+s1=raw_input()
+s2=raw_input()
+s3=raw_input()
+for i in s1:
+    if i in ["a",'e','i','o','u','A','E','I','O','U']:
+    
+        s1=s1.replace(i,'"')
+print(s1)
+
+for i in s2:
+  if i in ["a",'e','i','o','u','A','E','I','O','U']:
+    continue
+  else:
+    s2=s2.replace(i,'*')
+print(s2)
+
+s4=s3.lower()
+print(s4)
