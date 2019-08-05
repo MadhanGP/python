@@ -19,3 +19,16 @@ def pal(n,c):
 n=int(input())
 c=0
 p=pal(n,c)
+
+
+#alternate and correct
+def pal(i):
+    if str(i)==str(i)[::-1]:
+        return False
+    else:
+        return True
+n=int(input())
+n=n+int(str(n)[::-1])
+while(pal(n)):
+    n=n+int(str(n)[::-1])
+print(n)
