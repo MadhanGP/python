@@ -14,4 +14,7 @@ for i in range(r):
     for j in range(c):
         if row[i]==0 or col[j]==0:
             m[i][j]=0
-print(m)
+for i in m:
+    for j in i:
+        print(j,end=' ')
+    print()
