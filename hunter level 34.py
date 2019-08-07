@@ -8,7 +8,7 @@ else:
         s_l.append(i)
     s_l.sort()
     flag=0
-    for num in range(n+1,100000000):
+    for num in range(n+1,1000000):
         st=str(num)
         l=[]
         for i in st:
