@@ -1,0 +1,12 @@
+name=input()
+n=name.split(' ')
+for i in n:
+    r=i[::-1]
+    print(r,end=" ")
+        
+        
+        
+        
+'''s='madhan'
+k=s[::-1]
+print(k)'''
