@@ -1,0 +1,55 @@
+'''import random
+sayings=('hello','hi','vanakkam')
+
+def greet():
+    return random.choice(sayings)
+    
+print(random.choice(sayings))
+
+def sumation(a1,a2):
+   # print(a1-a2)
+    return a1+a2
+    
+print(sumation(2,3))
+print(sumation('he','llo'))'''
+
+'''def many(*a1):
+    total='ss'
+    for i in a1:
+        total+=i
+    return total
+        
+prob=('sa','lu','te')
+print(many(*prob))
+#print(many(1,2,3,4,5))'''
+
+
+
+
+'''
+def add(*args):
+    total=0
+    for i in args:
+        total+=i 
+    return total
+user=[]
+t=int(input('no of numbers:'))
+for k in range(t):
+    n=int(input('enter values:'))
+    user.append(n)
+#print(user)
+
+for j in range(len(user)):
+    print(user[j],end=" ")
+print(add(*user))'''
+    
+'''import os
+for path,dir,file in os.walk('C:\Users\student\Downloads\ALL DOWNLOADS'):
+    print(path)
+    print(dir)
+    print(file)'''
+import os
+print(os.getcwd())
+
+
+'''print(__name__)'''
