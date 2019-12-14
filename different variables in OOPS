@@ -1,0 +1,25 @@
+#instance and class variables difference
+
+
+class car:
+    wheel=4    #class variable ,mentioned outside the init function
+    def __init__ (self):
+        self.company="BMW"
+        self.mile_age=10
+car.wheel=6   #single change make all to change
+car1=car()
+print(car1.company)
+print(car1.wheel)
+print(car1.mile_age)
+    
+    
+class car:
+    def __init__(self):
+        self.wheel=4   #instance variable, specially for that function
+        self.company="BMW"
+        self.mile_age=10
+        
+car1=car()
+print(car1.company)
+print(car1.wheel)
+print(car1.mile_age)
